@@ -1,35 +1,35 @@
-body{
+body {
 	background-color: rgb(50, 50, 50);
-	color:white;
-	margin:0;
+	color: white;
+	margin: 0;
 	text-align: center;
 	font-family: "Montserrat";
 	text-transform: uppercase;
-	height:100%;
+	height: 100%;
 	/*border: 5px solid red;*/
 }
 
-h1{
+h1 {
 	background-color: steelblue;
-	margin:0;
+	margin: 0;
 	padding: 10px;
 	/*height:100px;*/
 	font-weight: 400;
 }
 
-.container{
+.container {
 	max-width: 600px;
-	height:100%;
+	height: 100%;
 	margin: 0 auto;
 }
 
-#squaresArea{
+#squaresArea {
 	margin-top: 50px;
 }
 
-.square{
-	width:30%;
-	margin:1.66%;
+.square {
+	width: 30%;
+	margin: 1.66%;
 	padding-bottom: 30%;
 	background-color: rgb(255, 255, 255);
 	float: left;
@@ -39,36 +39,36 @@ h1{
 	-moz-transition: background 0.5s;
 }
 
-#optionsBar{
+#optionsBar {
 	background-color: white;
 	height: 30px;
-	width:100%;
+	width: 100%;
 	color: black;
 	text-align: center;
-	float:left;
-
+	float: left;
 }
 
-#resultInfo{
+#resultInfo {
 	display: inline-block;
 	width: 40%;
 }
 
-.selected, button:hover{
+.selected,
+button:hover {
 	background-color: steelblue;
-	color:white;
+	color: white;
 }
 
-#colorDisplay{
+#colorDisplay {
 	font-size: 2em;
 }
 
-button{
-	border:none;
-	background:none;
+button {
+	border: none;
+	background: none;
 	text-transform: uppercase;
 	font-family: "Montserrat";
-	height:100%;
+	height: 100%;
 	font-size: 20px;
 	font-weight: 700;
 	color: steelblue;
